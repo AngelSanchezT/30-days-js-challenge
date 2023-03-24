@@ -41,7 +41,7 @@ function getDogInfo(age) {
         return getBirdInfo(age);
       default:
         return "Tipo de mascota inválida";
-  
+
     }
   
   }
