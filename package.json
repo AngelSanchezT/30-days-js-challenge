@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test-day-01": "mocha --experimental-specifier-resolution=node --require esm --recursive 'day-01/test/test.js'"
+    "test": "mocha --experimental-specifier-resolution=node --require esm --recursive 'day-*/test/*.js'"
   },
   "author": "",
   "license": "ISC",

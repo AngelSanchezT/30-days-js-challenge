@@ -2,9 +2,16 @@ import assert from 'assert';
 import { solution } from '../script';
 
 
-describe('solution', () => {
+describe('✔ Day 01 - Know the variables, functions and basic syntax of Javascript.', () => {
+    it('should return a number',() => {
+        assert.equal(solution(1), 'number');
+    });
+
     it('should return a string',() => {
-        assert.equal(typeof solution(123), 'string');
-        assert.equal(typeof solution('hello'), 'string');
+        assert.equal(solution('Dieguillo'), 'string');
+    });
+
+    it('should return a boolean',() => {
+        assert.equal(solution(true), 'boolean');
     });
 });
