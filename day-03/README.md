@@ -36,6 +36,7 @@ export function isLeapYear(year) {
 }
 ```
 
+
 # Obtén información de mascotas según su tipo
 
 En este desafío recibirás una serie de tipos de mascotas junto con su edad.
