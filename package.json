@@ -4,7 +4,7 @@
   "description": "Welcome to the 30 Days of JavaScript Challenge! Elevate your coding skills and unleash your creativity with these daily programming challenges. From building simple apps to solving complex algorithms, this repository is the ultimate playground for JavaScript enthusiasts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha '**/test/*.js'"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AngelSanchezT/30-days-js-challenge/issues"
   },
-  "homepage": "https://github.com/AngelSanchezT/30-days-js-challenge#readme"
+  "homepage": "https://github.com/AngelSanchezT/30-days-js-challenge#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
