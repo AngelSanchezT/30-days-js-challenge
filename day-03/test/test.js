@@ -1,6 +1,7 @@
 import assert from 'assert';
 import { isLeapYear } from '../isLeapYear';
 import { getPetExerciseInfo } from '../petExerciseInfo';
+import { printTriangle } from '../printTriangle';
 
 
 describe('✔ Day 03.1 - Find out if a year is a leap year', () => {
@@ -59,3 +60,32 @@ describe('✔ Day 03.2 - Get pet information by type', () => {
     });
 
 });
+
+describe('✔ Day 03.3 - Draw a triangule', () => {
+    it('should return a triangle of *',() => {
+        const size = 5;
+        const character = "*";
+        const rta = printTriangle(size, character);
+
+        assert.equal(rta, "    *\n   **\n  ***\n ****\n*****");
+    });
+
+    it("should return a triangle of size 6 with $", () => {
+        const size = 6;
+        const character = "$";
+        const rta = printTriangle(size, character);
+
+        assert.equal(rta, "     $\n    $$\n   $$$\n  $$$$\n $$$$$\n$$$$$$");
+    })
+
+    it("should return a triangle of size 3 with %", () => {
+        const size = 3;
+        const character = "%";
+        const rta = printTriangle(size, character);
+
+        assert.equal(rta, "  %\n %%\n%%%");
+    })
+
+
+});
+
