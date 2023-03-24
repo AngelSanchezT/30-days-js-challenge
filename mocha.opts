@@ -1,0 +1,4 @@
+--require test/helpers.js
+--ui bdd
+--reporter spec
+test/**/*.js

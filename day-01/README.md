@@ -1,4 +1,4 @@
-# Playground - Retorna el tipo
+# Retorna el tipo
 
 En este desafío encontrarás una función llamada `solution` que recibe un parámetro llamado `valor`. Debes encontrar el tipo de dato del parámetro `valor` y retornarlo desde la función `solution`.
 
@@ -20,4 +20,10 @@ Debes obtener los siguientes resultados:
 "number"
 "string"
 "boolean"
+```
+
+```jsx
+export function solution(valor) {
+  // Escribe tu código aquí 👈
+}
 ```
