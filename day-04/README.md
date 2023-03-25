@@ -12,7 +12,7 @@ Tendrás inputs y outputs como los siguientes 👇
 
 Ejemplo 1:
 
-```json
+```
 Input: findFamousCats([
   {
     name: "Luna",
@@ -29,7 +29,7 @@ Output: ["Luna"]
 
 Ejemplo 2:
 
-```json
+```
 Input: findFamousCats([
   {
     name: "Mimi",
