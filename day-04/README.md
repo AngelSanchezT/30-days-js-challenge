@@ -1,4 +1,4 @@
-# Exercise 04-01 : Encuentra al michi mas famoso
+# Ejercicio 04-01 : Encuentra al michi mas famoso
 En este desafío, debes encontrar al gatito más famoso con base en su número de seguidores.
 
 Recibirás un array de objetos que incluirán las siguientes propiedades:
@@ -48,7 +48,7 @@ Input: findFamousCats([
 Output: ["Milo", "Gizmo"]
 ```
 
-# Exercise 04-02 : Obtén el promedio de los estudiantes
+# Ejercicio 04-02 : Obtén el promedio de los estudiantes
 
 En este desafío, deberás calcular el promedio general de una clase, así como el promedio individual de cada estudiante.
 
