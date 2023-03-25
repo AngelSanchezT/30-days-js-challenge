@@ -1,10 +1,10 @@
 import assert from 'assert';
-import { isLeapYear } from '../isLeapYear';
-import { getPetExerciseInfo } from '../petExerciseInfo';
-import { printTriangle } from '../printTriangle';
+import { isLeapYear } from '../exercise-03-01';
+import { getPetExerciseInfo } from '../exercise-03-02';
+import { printTriangle } from '../exercise-03-03';
 
 
-describe('✔ Day 03.1 - Find out if a year is a leap year', () => {
+describe('✔ Day 03.01 - Find out if a year is a leap year', () => {
     it('should return a false',() => {
         assert.equal(isLeapYear(2002), false);
     });
@@ -22,7 +22,7 @@ describe('✔ Day 03.1 - Find out if a year is a leap year', () => {
     });
 });
 
-describe('✔ Day 03.2 - Get pet information by type', () => {
+describe('✔ Day 03.02 - Get pet information by type', () => {
     // Dogs
 
     it('should return a string for dogs',() => {
@@ -61,7 +61,7 @@ describe('✔ Day 03.2 - Get pet information by type', () => {
 
 });
 
-describe('✔ Day 03.3 - Draw a triangule', () => {
+describe('✔ Day 03.03 - Draw a triangule', () => {
     it('should return a triangle of *',() => {
         const size = 5;
         const character = "*";
