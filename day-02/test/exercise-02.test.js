@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { calculateTip } from '../script';
+import { calculateTip } from '../exercise-02';
 
 
 describe('✔ Day 02 - Calculate the tip.', () => {

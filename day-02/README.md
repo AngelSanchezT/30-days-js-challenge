@@ -24,12 +24,3 @@ Input: calculateTip(1524.33, 25);
 Output: 381.0825;
 ```
 
-script.js
-
-```jsx
-export function calculateTip(billAmount, tipPercentage) {
-  // Tu código aquí 👈
-}
-```
-
-
