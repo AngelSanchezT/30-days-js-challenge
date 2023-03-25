@@ -21,9 +21,3 @@ Debes obtener los siguientes resultados:
 "string"
 "boolean"
 ```
-
-```jsx
-export function solution(valor) {
-  // Escribe tu código aquí 👈
-}
-```
