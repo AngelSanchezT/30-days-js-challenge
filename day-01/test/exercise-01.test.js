@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { solution } from '../script';
+import { solution } from '../exercise-01';
 
 
 describe('✔ Day 01 - Know the variables, functions and basic syntax of Javascript.', () => {
