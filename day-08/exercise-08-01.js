@@ -1,4 +1,4 @@
-function createCalculator() {
+export function createCalculator() {
     // Primero declaramos nuestra variable privada
     // que tendrá un valor inicial de 0
     let total = 0;
