@@ -1,4 +1,4 @@
-import { doTask1, doTask2, doTask3 } from "./tasks";
+import { doTask1, doTask2, doTask3 } from "./task";
 
 export function runCode() {
   const strings = [];

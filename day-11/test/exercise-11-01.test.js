@@ -6,8 +6,8 @@ chai.use(chaiAsPromised);
 
 import { sendEmail } from "../exercise-11-01";
 
-describe("🌐 Day 11 - Create a Promise to Send Emails", function () {
-  // aumenta el tiempo limite a 5000ms
+describe("🌐 Day 11-01 - Create a Promise to Send Emails", function () {
+  // aumenta el tiempo limite a 10000ms
   this.timeout(10000);
   it("should call setTimeout with 2s", async () => {
     // create a spy for the method setTimeout
@@ -27,7 +27,6 @@ describe("🌐 Day 11 - Create a Promise to Send Emails", function () {
     // and that the last call was made with a function and a numeric
     // argument equal to 2000.
     expect(spy.calledOnce).to.be.true;
-    // expect(spy.lastCall.args).to.eql([expect.any(sendEmail), 2000]);
     expect(spy.lastCall.args[1]).to.be.a("number").and.equal(2000);
     expect(rta).to.eql({ email, subject, body });
   });
