@@ -1,6 +1,4 @@
-import assert from "assert";
-import { expect } from "chai";
-import chai from "chai";
+import chai, { expect } from "chai";
 import sinon from "sinon";
 import chaiAsPromised from "chai-as-promised";
 
