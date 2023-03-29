@@ -1,7 +1,7 @@
 import assert from "assert";
-import { createTaskPlanner } from "../exercise-09";
+import { createTaskPlanner } from "../exercise-10";
 
-describe("🌐 Day 09 - Task Planner", () => {
+describe("🌐 Day 10 - Task Planner", () => {
   const planner = createTaskPlanner();
 
   it("should add a new task with completed property", () => {
