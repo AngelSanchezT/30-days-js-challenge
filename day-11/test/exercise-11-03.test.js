@@ -22,7 +22,7 @@ describe('🌐 Day 11-03 - Solve the hell callback using async/await', function 
 
   it("should call setTimeout 3 times", async () => {
     // Restore the original setTimeout function
-    global.setTimeout.restore();
+    global.setTimeout.restore;
     // create a spy for the method setTimeout
     const spy = sinon.spy(global, "setTimeout");
     const rta = await runCode();
