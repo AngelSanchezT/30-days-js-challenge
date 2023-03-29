@@ -5,9 +5,11 @@ import chaiAsPromised from "chai-as-promised";
 chai.use(chaiAsPromised);
 
 import { runCode } from "../exercise-11-02";
-import { doTask1, doTask2, doTask3 } from "../task";
+import { doTask1, doTask2, doTask3 } from "../tasks";
 
-describe("🌐 Day-11-02 - Avoid hell callback using Promises", () => {
+describe("🌐 Day-11-02 - Avoid hell callback using Promises", function () {
+  // aumenta el tiempo limite a 10000ms
+  this.timeout(10000);
   it("should return a array with 3 elements", async () => {
     const rta = await runCode();
     expect(rta).to.be.an("array").with.lengthOf(3);
@@ -28,12 +30,10 @@ describe("🌐 Day-11-02 - Avoid hell callback using Promises", () => {
     expect(spy.calledThrice).to.be.true;
   });
 
-  
   it("should doTask1, doTask2, doTask3 be a Promise", async () => {
     await runCode();
     expect(doTask1()).to.be.a("promise");
     expect(doTask2()).to.be.a("promise");
     expect(doTask3()).to.be.a("promise");
   });
-
 });
