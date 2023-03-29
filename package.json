@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
     "esm": "^3.2.25",
     "has-typed-arrays": "^1.0.1",
     "mocha": "^10.2.0",

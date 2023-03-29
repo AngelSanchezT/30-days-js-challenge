@@ -1,10 +1,19 @@
 export function sendEmail(email, subject, body) {
-  // Tu código aquí 👈
-  
-  if(email === undefined || email.length === 0) {
-    throw new Error("Error email is missing");
-    
-  }
+  return new Promise((resolve, reject) => {
+    if (email === undefined || email.length === 0) {
+      reject(new Error("Error email is missing"));
+    }
 
-  return { email, subject, body};
+    if (subject === undefined || subject.length === 0) {
+      reject(new Error("Error subject is missing"));
+    }
+
+    if (body === undefined || body.length === 0) {
+      reject(new Error("Error body is missing"));
+    }
+
+    setTimeout(() => {
+      resolve({ email, subject, body });
+    }, 2000);
+  });
 }
