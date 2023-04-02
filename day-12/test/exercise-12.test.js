@@ -21,7 +21,7 @@ describe("🌐 Day-12 - Validate the form", () => {
 
   it("should add a new user to the array", () => {
     const rta = validateForm(formData, registeredUsers);
-    
+    console.log(rta);
     expect(typeof rta).to.be.a("string");
 
     expect(registeredUsers).to.eql([
