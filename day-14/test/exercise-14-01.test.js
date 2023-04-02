@@ -11,17 +11,17 @@ const shoppingList = [
 describe("Day 14-01 - Modify a shopping list", () => {
   it("should return the total", () => {
     const rta = processShoppingList(shoppingList);
-    expect(rta).to.be.a(89);
+    expect(rta).to.eql(89);
   });
 
   it("should apply the discount to items", () => {
     const item = shoppingList.find((i) => i.name.includes("oferta"));
-    expect(item.price).to.be.a(24);
+    expect(item.price).to.eql(24);
   });
 
   it("should delete the quantity property", () => {
     const item = shoppingList[0];
-    expect(item.quantity).to.be.a(undefined);
+    expect(item.quantity).to.eql(undefined);
   });
 
   it("should modify the original array", () => {
