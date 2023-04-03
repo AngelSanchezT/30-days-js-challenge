@@ -8,7 +8,7 @@ const shoppingList = [
   { name: "oferta manzanas", price: 10, quantity: 3 },
 ];
 
-describe("Day 14-01 - Modify a shopping list", () => {
+describe("🌐 Day 14-01 - Modify a shopping list", () => {
   it("should return the total", () => {
     const rta = processShoppingList(shoppingList);
     expect(rta).to.eql(89);
