@@ -54,6 +54,7 @@ describe("🌐 Day-15 - Hotel reservation system", () => {
     };
     hotel.addReservation(reservation2);
     hotel.addReservation(reservation1);
+
     expect(hotel.getSortReservations()).to.eql([reservation1, reservation2]);
   });
 
