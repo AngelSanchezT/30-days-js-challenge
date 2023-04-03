@@ -1,6 +1,6 @@
 import { expect } from "chai";
 
-import { sortByAvailabilityAndPrice } from "./exercise";
+import { sortByAvailabilityAndPrice } from "../exercise-14-02";
 
 describe("🌐 Day 14-01 - Sort products by price and availability", () => {
   const products = [
