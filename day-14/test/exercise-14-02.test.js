@@ -2,7 +2,7 @@ import { expect } from "chai";
 
 import { sortByAvailabilityAndPrice } from "../exercise-14-02";
 
-describe("🌐 Day 14-01 - Sort products by price and availability", () => {
+describe("🌐 Day 14-02 - Sort products by price and availability", () => {
   const products = [
     { name: "product1", price: 10, inStock: true },
     { name: "product2", price: 20, inStock: false },
@@ -12,12 +12,14 @@ describe("🌐 Day 14-01 - Sort products by price and availability", () => {
 
   it("should sort products by availability and price", () => {
     const rta = sortByAvailabilityAndPrice(products);
-    expect(rta).to.eql([
-      { name: "product1", price: 10, inStock: true },
-      { name: "product3", price: 15, inStock: true },
-      { name: "product4", price: 5, inStock: false },
-      { name: "product2", price: 20, inStock: false },
-    ]);
+    const listExpect = [
+        { name: "product1", price: 10, inStock: true },
+        { name: "product3", price: 15, inStock: true },
+        { name: "product4", price: 5, inStock: false },
+        { name: "product2", price: 20, inStock: false },
+      ];
+
+    expect(rta).to.eql(listExpect);
   });
 
   it("should return a new copy of the array", () => {
@@ -34,7 +36,7 @@ describe("🌐 Day 14-01 - Sort products by price and availability", () => {
     ];
 
     const rta = sortByAvailabilityAndPrice(books);
-    expect(rta).toEqual([
+    expect(rta).to.eql([
       { name: "book3", price: 150, inStock: true },
       { name: "book1", price: 200, inStock: true },
       { name: "book4", price: 5, inStock: false },
