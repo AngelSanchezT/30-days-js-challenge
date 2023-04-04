@@ -1,4 +1,3 @@
 export class Newsletter {
-    // Tu código aquí 👈
-  }
-  
+  // Tu código aquí 👈
+}
