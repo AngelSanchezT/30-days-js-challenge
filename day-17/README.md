@@ -54,7 +54,7 @@ Output: [
 
 ## 🔴 **Ejercicio 17-02 - Crea un auto usando clases**
 
-:red_circle: Day 17-02 - Create a car using classes
+
 
 En este desafío, deberás crear la lógica para un automóvil mediante el uso de clases.
 
