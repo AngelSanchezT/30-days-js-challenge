@@ -4,7 +4,7 @@ import { WarrantyDecorator } from "../WarrantyDecorator";
 import { ShippingInsuranceDecorator } from "../ShippingInsurance";
 import { expect } from 'chai';
 
-describe("🌐 Day 22 - Customize products from a store", () => {
+describe("🌐 Day 22-01 - Customize products from a store", () => {
   it("Should not modify the product base class", () => {
     const product = new Product(1000);
     expect(() => product.getDescription()).to.throw();
