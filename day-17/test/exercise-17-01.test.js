@@ -5,7 +5,7 @@ import { arrayModified } from "../exercise-17-01";
 
 arrayModified();
 
-describe("tests", () => {
+describe("🌐 Day 17-01 - Modifies the prototype of the array", () => {
   it("should exist a new array method", () => {
     const type = typeof Array.prototype.myFilter;
     expect(type).to.eql("function");
