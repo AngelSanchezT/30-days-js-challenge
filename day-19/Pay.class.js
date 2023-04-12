@@ -1,3 +1,8 @@
 export class Pay {
-  // Tu código aquí 👈
+  makePay(cantidadAPagar) {
+    return {
+      realized: true,
+      quantity: cantidadAPagar,
+    }
+  }
 }
