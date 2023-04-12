@@ -1,4 +1,4 @@
-## 🔴 **Ejercicio 18-01 - Sistema de carrito de compras**
+## ✅ **Ejercicio 18-01 - Sistema de carrito de compras**
 
 En este desafío debes crear un sistema de carrito de compras.
 
