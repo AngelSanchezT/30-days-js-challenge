@@ -1,6 +1,4 @@
 export function hotelSystem(rooms) {
-
-  
   const reservations = [];
 
   const searchReservation = (id) => {
@@ -52,12 +50,44 @@ export function hotelSystem(rooms) {
     reservations.splice(reservationIndex, 1);
 
     return reservationRemoved;
-
   };
+
+  function isAvailable(reservation) {
+    const checkIn = reservation.checkIn;
+    const checkOut = reservation.checkOut;
+
+    for (const currentReservation of reservations) {
+      const currentCheckIn = currentReservation.checkIn;
+      const currentCheckOut = currentReservation.checkOut;
+
+      if (
+        (checkIn >= currentCheckIn && checkIn < currentCheckOut) ||
+        (checkOut > currentCheckIn && checkOut <= currentCheckOut) ||
+        (checkIn <= currentCheckIn && checkOut >= currentCheckOut)
+      ) {
+        if (currentReservation.roomNumber === reservation.roomNumber) {
+          return false;
+        }
+      }
+    }
+
+    return true;
+  }
 
   const getReservations = () => reservations;
 
-  const getAvailableRooms = (checkIn, checkOut) => {};
+  const getAvailableRooms = (checkIn, checkOut) => {
+    const availableRooms = [];
+
+    for (let i = 1; i <= rooms; i++) {
+      const reservation = { checkIn, checkOut, roomNumber: i };
+
+      if (isAvailable(reservation)) {
+        availableRooms.push(i);
+      }
+    }
+    return availableRooms;
+  };
 
   return {
     searchReservation,
