@@ -7,9 +7,7 @@ export class Product {
     }
   
     addToCart() {
-      throw new Error(
-        "La lógica de este método debe ser implementada por las clases hijas"
-      );
+      throw new Error("La lógica de este método debe ser implementada por las clases hijas");
     }
   }
   

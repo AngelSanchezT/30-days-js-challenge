@@ -1,4 +1,7 @@
-import { expect } from 'chai';
+import chai, { expect } from 'chai';
+import chaiAsPromised from "chai-as-promised";
+
+chai.use(chaiAsPromised);
 
 import { Article, Service, Cart } from "../exercise-18-01";
 import { Product } from "../product";
@@ -58,10 +61,6 @@ describe("🌐 Day 18-01 - shopping cart system", () => {
 
   it("should not modify the Product class", () => {
     const product = new Product("product", 1, 1);
-    expect(() => product.addToCart()).to.throw(
-      Error(
-        "La lógica de este método debe ser implementada por las clases hijas"
-      )
-    );
+    expect(() => product.addToCart()).to.throw("La lógica de este método debe ser implementada por las clases hijas");
   });
 });
