@@ -8,7 +8,7 @@ Tendrás que implementar la lógica de las siguientes clases con las siguientes 
 - `Passenger`: cada pasajero tendrá los atributos `name` (nombre), `lastName` (apellido) y `age` (edad) y se inicializará con una lista de vuelos (`flights`) vacía. Cada que se agregue un vuelo a dicha lista, solo deberán agregarse las siguientes propiedades: `origin`, `destination`, `date` y `price`.
 - `Reservation` aceptará un objeto `flight` y un objeto `passenger`, e incluirá el método `reservationDetails()` que devolverá un objeto con los detalles de la reservación, incluyendo `origin`, `destination`, `date` y `reservedBy` (nombre completo del pasajero).
 - `PremiumFlight` extenderá de la clase `Flight` y agregará la propiedad `specialService` que será un costo adicional al precio del vuelo dentro del método `sellTicket(passenger)`.
-- `EconomicFlight`de igual manera, extenderá de la clase `Flight` y aplicará un descuento del 20% dentro del método `sellTicket(passenger)` para los pasajeros con una edad menor a 18 años o mayor a 65 años.
+- `EconomicFlight` de igual manera, extenderá de la clase `Flight` y aplicará un descuento del 20% dentro del método `sellTicket(passenger)` para los pasajeros con una edad menor a 18 años o mayor a 65 años.
 
 Ejemplo 1
 

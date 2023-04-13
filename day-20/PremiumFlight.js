@@ -3,10 +3,11 @@ import { Reservation } from "./Reservation";
 
 export class PremiumFlight extends Flight {
   constructor(origin, destination, date, capacity, price, specialService) {
-    // Tu código aquí 👈
+    super(origin, destination, date, capacity, price + specialService);
+    this.specialService = specialService;
   }
 
   sellTicket(passenger) {
-    // Tu código aquí 👈
+    return super.sellTicket(passenger);
   }
 }

@@ -1,9 +1,15 @@
 export class Reservation {
   constructor(flight, passenger) {
-    // Tu código aquí 👈
+    this.flight = flight;
+    this.passenger = passenger;
   }
 
   reservationDetails() {
-    // Tu código aquí 👈
+    return {
+      origin: this.flight.origin,
+      destination: this.flight.destination,
+      date: this.flight.date,
+      reservedBy: this.passenger.name + ' ' + this.passenger.lastName,
+    };
   }
 }

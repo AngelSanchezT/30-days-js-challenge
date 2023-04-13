@@ -1,4 +1,4 @@
-## 🔴 **Ejercicio 19-01 - Jerarquía de animales**
+## ✅ **Ejercicio 19-01 - Jerarquía de animales**
 
 En este desafío, debes crear una jerarquía de clases mediante el uso de la herencia.
 
