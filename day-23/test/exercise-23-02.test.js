@@ -32,13 +32,16 @@ describe("🌐 Day 23-02 - Implementation of Observer in Newsletter", () => {
     const spy = sinon.spy(subscriber, "receive");
     newsletter.subscribe(subscriber);
     newsletter.post({ title: "Título de prueba" });
-    expect(spy).to.have.been.calledWith({ title: "Título de prueba" });
+    // expect(spy).to.have.been.calledWith({ title: "Título de prueba" });
+    expect(spy.calledWith({ title: "Título de prueba" })).to.be.true;
   });
 
   it("should can receive an email", () => {
     const subscriber = new Subscriber("email@example.com");
     const spy = sinon.spy(console, "log");
     subscriber.receive({ title: "Título de prueba" });
-    expect(spy).to.have.been.called;
+    // expect(spy).to.have.been.called;
+    expect(spy.called).to.be.true;
+
   });
 });
