@@ -1,3 +1,12 @@
 export function removeDuplicates(values) {
-  // Tu código aquí 👈
+    
+    let onlyValues =new Set();
+
+    values.forEach(item => {
+        if(!onlyValues.has(item)) {
+            onlyValues.add(item);
+        }
+    });
+
+    return Array.from(onlyValues);
 }

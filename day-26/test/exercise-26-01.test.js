@@ -1,4 +1,6 @@
 import { removeDuplicates } from "../exercise-26-01";
+import { expect } from 'chai';
+import sinon from 'sinon';
 
 describe("tests", () => {
   it("should remove duplicates numbers from an array", () => {
@@ -7,7 +9,7 @@ describe("tests", () => {
 
     const rta = removeDuplicates(input);
 
-    expect(rta).toEqual(expectedOutput);
+    expect(rta).to.eql(expectedOutput);
   });
 
   it("should remove duplicates string from an array", () => {
@@ -24,7 +26,7 @@ describe("tests", () => {
 
     const rta = removeDuplicates(input);
 
-    expect(rta).toEqual(expectedOutput);
+    expect(rta).to.eql(expectedOutput);
   });
 
   it("Should return an empty array", () => {
@@ -40,7 +42,7 @@ describe("tests", () => {
 
     const rta = removeDuplicates(input);
 
-    expect(Array.isArray(rta)).toEqual(true);
+    expect(Array.isArray(rta)).to.eql(true);
   });
 
   it("Should return an array", () => {
@@ -49,7 +51,7 @@ describe("tests", () => {
 
     const rta = removeDuplicates(input);
 
-    expect(rta).toEqual(expectedOutput);
+    expect(rta).to.eql(expectedOutput);
   });
 
   it("Should return an empty with one item", () => {
@@ -58,6 +60,6 @@ describe("tests", () => {
 
     const rta = removeDuplicates(input);
 
-    expect(rta).toEqual(expectedOutput);
+    expect(rta).to.eql(expectedOutput);
   });
 });
