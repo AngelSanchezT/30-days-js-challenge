@@ -1,4 +1,4 @@
-## 🔴 **Ejercicio 26-01 - Remueve duplicados de una lista**
+## ✅ **Ejercicio 26-01 - Remueve duplicados de una lista**
 
 En este desafío deberás remover los elementos duplicados de un array.
 
@@ -36,7 +36,7 @@ console.log(removeDuplicates(numbers))
 Output: [1, 2, 3]
 ```
 
-## 🔴 **Ejercicio 25-2 - Crea un organizador de tareas**
+## ✅ **Ejercicio 25-2 - Crea un organizador de tareas**
 
 En este desafío tendrás que construir un organizador de tareas para planificar tus actividades diarias junto con sus correspondientes etiquetas.
 

@@ -1,6 +1,5 @@
 import { taskManager } from "../exercise-26-02";
 import { expect } from "chai";
-import sinon from "sinon";
 
 describe("🌐 Day-26-02 - Create a task organizer", () => {
   let tm;
