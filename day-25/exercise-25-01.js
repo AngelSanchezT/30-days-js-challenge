@@ -15,7 +15,15 @@ export class MyArray {
   }
 
   filter(func) {
-    // Tu código aquí 👈
+    const newArr = new MyArray();
+    for (let i = 0; i < this.length; i++) {
+      const element = this.data[i];
+      if (func(element)) {
+        newArr.push(element);
+      }
+    }
+
+    return newArr;
   }
 
   push(item) {
@@ -24,7 +32,12 @@ export class MyArray {
   }
 
   pop() {
-    // Tu código aquí 👈
+    this.length--;
+    const deletedItem = this.data[this.length];
+
+    delete this.data[this.length];
+
+    return deletedItem;
   }
 
   join(character = ",") {
