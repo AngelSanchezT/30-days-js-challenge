@@ -1,4 +1,4 @@
-## 🔴 **Ejercicio 25-01 - Crea tu propia implementación de un array**
+## ✅ **Ejercicio 25-01 - Crea tu propia implementación de un array**
 
 En este desafío, tendrás la oportunidad de desarrollar tus habilidades al construir tu propio array mediante el uso de clases.
 
