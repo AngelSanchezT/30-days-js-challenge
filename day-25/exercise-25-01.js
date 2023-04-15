@@ -5,25 +5,25 @@ export class MyArray {
   }
 
   map(func) {
-    const newArr = new MyArray();
+    const copyArray = new MyArray();
     for (let i = 0; i < this.length; i++) {
-      const element = this.data[i];
-      newArr.push(func(element));
+      const item = this.data[i];
+      copyArray.push(func(item));
     }
 
-    return newArr;
+    return copyArray;
   }
 
   filter(func) {
-    const newArr = new MyArray();
+    const copyArray = new MyArray();
     for (let i = 0; i < this.length; i++) {
-      const element = this.data[i];
-      if (func(element)) {
-        newArr.push(element);
+      const item = this.data[i];
+      if (func(item)) {
+        copyArray.push(item);
       }
     }
 
-    return newArr;
+    return copyArray;
   }
 
   push(item) {
@@ -41,7 +41,15 @@ export class MyArray {
   }
 
   join(character = ",") {
-    // Tu código aquí 👈
+    const copyArray = new MyArray();
+    for (let i = 0; i < this.length; i++) {
+      const item = this.data[i];
+      if (func(item)) {
+        copyArray.push(item);
+      }
+    }
+
+    return copyArray;
   }
 
   shift() {
