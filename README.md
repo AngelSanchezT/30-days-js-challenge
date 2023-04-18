@@ -49,28 +49,38 @@ npm test .\day-01
 
 Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y Chai. Puedes reemplazar day-01 con el nombre de la carpeta del desafío que deseas probar.
 
-- [✅ Día 1 - Retorna el tipo](./day-01/)
-- [✅ Día 2](./day-02/)
-- [✅ Día 3](./day-03/)
-- [✅ Día 4](./day-04/)
-- [✅ Día 5](./day-05/)
-- [✅ Día 6](./day-06/)
-- [✅ Día 7](./day-07/)
-- [✅ Día 8](./day-08/)
+- [✅ Día 01 - Retorna el tipo](./day-01/)
+- [✅ Día 02 - Calculate the tip](./day-02/)
+- [✅ Día 03.01 - Condicionales - Calcula años bisiestos](./day-03/)
+- [✅ Día 03.02 - Obtén información de mascotas según su tipo](./day-03/)
+- [✅ Día 04.02 - Encuentra al michi mas famoso](./day-04/)
+- [✅ Día 04.02 - Obtén el promedio de los estudiantes](./day-04/)
+- [✅ Día 05 - Encuentra el palíndromo más grande](./day-05/)
+- [✅ Día 06 - Reasignación y redeclaración](./day-06/)
+- [✅ Día 07 - Debugging y manejo de errores](./day-07/)
+- [✅ Día 08.01 - Crea una calculadora con closures](./day-08/)
+- [✅ Día 08.02 - Crea tu propio método map](./day-08/)
 - Día 9 - Evaluación de Conocimientos.
-- [✅ Día 10](./day-10/)
-- [✅ Día 11](./day-11/)
-- [✅ Día 12](./day-12/)
-- [✅ Día 13](./day-13/)
-- [✅ Día 14](./day-14/)
-- [✅ Día 15](./day-15/)
-- [✅ Día 16](./day-16/)
-- [✅ Día 17](./day-17/)
-- [✅ Día 18](./day-18/)
-- [✅ Día 19](./day-19/)
-- [✅ Día 20](./day-20/)
-- [✅ Día 21](./day-21/)
-- [✅ Día 22](./day-22/)
+- [✅ Día 10 - Task planner](./day-10/)
+- [✅ Día 11.01 - Promesas](./day-11/)
+- [✅ Día 11.02 - Resuelve el callback hell usando promesas](./day-11/)
+- [✅ Día 12 - Válida el formulario](./day-12/)
+- [✅ Día 13.01 - Agrupa los productos](./day-13/)
+- [✅ Día 13.01 - Encuentra la ubicación del valor buscado](./day-13/)
+- [✅ Día 14.01 - Modifica una lista de compras](./day-14/)
+- [✅ Día 14.02 - Ordena los productos](./day-14/)
+- [✅ Día 15 - Sistema de reservaciones de un hotel](./day-15/)
+- [✅ Día 16.01 - Congela el objeto recursivamente](./day-16/)
+- [✅ Día 17.01 - Modifica el prototype de los array](./day-17/)
+- [✅ Día 17.02 - Crea un auto usando clases](./day-17/)
+- [✅ Día 18.01 - Sistema de carrito de compras](./day-18/)
+- [✅ Día 18.02 - Encapsula datos de los usuarios](./day-18/)
+- [✅ Día 19.01 - Jerarquía de animales](./day-19/)
+- [✅ Día 19.02 - Implementa un sistema de pagos usando polimorfismo](./day-19/)
+- [✅ Día 20 - Agenda de vuelos](./day-20/)
+- [✅ Día 21 - Implementa singleton en un chat](./day-21/)
+- [✅ Día 22.01 - Personaliza productos de una tienda](./day-22/)
+- [✅ Día 22.02 - Mejora el código usando builder pattern](./day-22/)
 - [✅ Día 23.01 - Proxy en servicio de mensajería](./day-23/)
 - [✅ Día 23.02 - Implementación de Observador en Newsletter](./day-23/)
 - [🔴 Día 24](./day-24/)
@@ -91,6 +101,7 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [ ] Translate the readme every day to English.
 - [ ] Refactor the days with more one exercise, for separe the README.md and folder.
 - [ ] Correct Description README.md the day-26
+- [ ] Search exercises for Days 5, 6, and 9.
 
 
 /* "test": "mocha --experimental-specifier-resolution=node --require esm --recursive 'day-*/test/*.js'" */
