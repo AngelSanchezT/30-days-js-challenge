@@ -106,6 +106,7 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [ ] Refactor the days with more one exercise, for separe the README.md and folder.
 - [ ] Correct Description README.md the day-26
 - [ ] Search exercises for Days 5, 6, and 9.
+- [ ] Every Readme include link to page principal proyect.
 
 
 /* "test": "mocha --experimental-specifier-resolution=node --require esm --recursive 'day-*/test/*.js'" */
