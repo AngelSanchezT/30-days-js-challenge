@@ -7,7 +7,7 @@
 - [📚 Librerías utilizadas](#-librerías-utilizadas)
 - [⚙️ Configuración](#️-configuración)
 - [▶️ Ejecución de los desafíos](#️-ejecución-de-los-desafíos)
-- [TODO](#todo)
+- [🔴 TODO](#todo)
 
 
 ## 📥 Descarga del proyecto
@@ -49,13 +49,44 @@ npm test .\day-01
 
 Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y Chai. Puedes reemplazar day-01 con el nombre de la carpeta del desafío que deseas probar.
 
-¡Buena suerte y feliz codificación!
+- [✅ Día 1](./day-01/)
+- [✅ Día 2](./day-02/)
+- [✅ Día 3](./day-03/)
+- [✅ Día 4](./day-04/)
+- [✅ Día 5](./day-05/)
+- [✅ Día 6](./day-06/)
+- [✅ Día 7](./day-07/)
+- [✅ Día 8](./day-08/)
+- Día 9 - Evaluación de Conocimientos.
+- [✅ Día 10](./day-10/)
+- [✅ Día 11](./day-11/)
+- [✅ Día 12](./day-12/)
+- [✅ Día 13](./day-13/)
+- [✅ Día 14](./day-14/)
+- [✅ Día 15](./day-15/)
+- [✅ Día 16](./day-16/)
+- [✅ Día 17](./day-17/)
+- [✅ Día 18](./day-18/)
+- [✅ Día 19](./day-19/)
+- [✅ Día 20](./day-20/)
+- [✅ Día 21](./day-21/)
+- [✅ Día 22](./day-22/)
+- [✅ Día 23](./day-23/)
+- [✅ Día 24](./day-24/)
+- [✅ Día 25](./day-25/)
+- [✅ Día 26](./day-26/)
+- [🔴 Día 27](./day-27/)
+- [🔴 Día 28](./day-28/)
+- [🔴 Día 29](./day-29/)
+- [🔴 Día 30](./day-30/)
 
 # TODO
-- [ ] Pending to describe how the tests can be executed.
-- [ ] Create index the proyect with describe short.
-- [ ] Create indec in the readme the each day.
+- [X] Pending to describe how the tests can be executed.
+- [X] Create index the proyect with describe short.
+- [ ] Create index in the readme the each day.
 - [ ] Validate los message the commit, remove the red circle.
+- [ ] Translate the readme every day to English.
+- [ ] Refactor the days with more one exercise, for separe the README.md and folder.
 
 
 /* "test": "mocha --experimental-specifier-resolution=node --require esm --recursive 'day-*/test/*.js'" */
