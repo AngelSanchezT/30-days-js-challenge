@@ -48,7 +48,7 @@ Input: findFamousCats([
 Output: ["Milo", "Gizmo"]
 ```
 
-# Ejercicio 04-02 : Obtén el promedio de los estudiantes
+# ✅ Ejercicio 04-02 : Obtén el promedio de los estudiantes
 
 En este desafío, deberás calcular el promedio general de una clase, así como el promedio individual de cada estudiante.
 
