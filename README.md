@@ -102,7 +102,7 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [X] Create index the proyect with describe short.
 - [ ] Create index in the readme the each day.
 - [ ] Validate los message the commit, remove the red circle.
-- [ ] Translate the readme every day to English.
+- [ ] Translate the readme every day to English and create el README.es-ES.md
 - [ ] Refactor the days with more one exercise, for separe the README.md and folder.
 - [ ] Correct Description README.md the day-26
 - [ ] Search exercises for Days 5, 6, and 9.
