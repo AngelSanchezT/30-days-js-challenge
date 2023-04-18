@@ -7,7 +7,9 @@
 - [📚 Librerías utilizadas](#-librerías-utilizadas)
 - [⚙️ Configuración](#️-configuración)
 - [▶️ Ejecución de los desafíos](#️-ejecución-de-los-desafíos)
+- [🚀 Índice de Desafíos Diario 🔥](#🚀-índice-de-desafíos-diarios)
 - [🔴 TODO](#todo)
+
 
 
 ## 📥 Descarga del proyecto
@@ -48,6 +50,8 @@ npm test .\day-01
 ```
 
 Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y Chai. Puedes reemplazar day-01 con el nombre de la carpeta del desafío que deseas probar.
+
+# 🚀 Índice de Desafíos Diarios
 
 - [✅ Día 01 - Retorna el tipo](./day-01/)
 - [✅ Día 02 - Calculate the tip](./day-02/)
