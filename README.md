@@ -49,7 +49,7 @@ npm test .\day-01
 
 Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y Chai. Puedes reemplazar day-01 con el nombre de la carpeta del desafío que deseas probar.
 
-- [✅ Día 1](./day-01/)
+- [✅ Día 1 - Retorna el tipo](./day-01/)
 - [✅ Día 2](./day-02/)
 - [✅ Día 3](./day-03/)
 - [✅ Día 4](./day-04/)
@@ -71,10 +71,13 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [✅ Día 20](./day-20/)
 - [✅ Día 21](./day-21/)
 - [✅ Día 22](./day-22/)
-- [✅ Día 23](./day-23/)
-- [✅ Día 24](./day-24/)
-- [✅ Día 25](./day-25/)
-- [✅ Día 26](./day-26/)
+- [✅ Día 23.01 - Proxy en servicio de mensajería](./day-23/)
+- [✅ Día 23.02 - Implementación de Observador en Newsletter](./day-23/)
+- [🔴 Día 24](./day-24/)
+- [✅ Día 25.01 - Crea tu propia implementación de un array](./day-25/)
+- [✅ Día 25.02 - Implementación de una HashTable para Contactos](./day-25/)
+- [✅ Día 26.01 - Remueve duplicados de una lista](./day-26/)
+- [✅ Día 26.02 - Crea un organizador de tareas](./day-26/)
 - [🔴 Día 27](./day-27/)
 - [🔴 Día 28](./day-28/)
 - [🔴 Día 29](./day-29/)
@@ -87,6 +90,7 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [ ] Validate los message the commit, remove the red circle.
 - [ ] Translate the readme every day to English.
 - [ ] Refactor the days with more one exercise, for separe the README.md and folder.
+- [ ] Correct Description README.md the day-26
 
 
 /* "test": "mocha --experimental-specifier-resolution=node --require esm --recursive 'day-*/test/*.js'" */
