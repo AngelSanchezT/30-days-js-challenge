@@ -1,4 +1,4 @@
-## ✅ ****Playground - Task planner****
+## ✅ **Playground - Task planner**
 
 En este desafío, debes implementar la lógica de un planificador de tareas que permita agregar, eliminar y marcar como completadas las tareas, así como también mostrar un registro de las mismas. Para ello, debes construir la lógica de la función closure llamada `createTaskPlanner` para que devuelva los siguientes métodos:
 
