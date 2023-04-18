@@ -7,7 +7,7 @@
 - [📚 Librerías utilizadas](#-librerías-utilizadas)
 - [⚙️ Configuración](#️-configuración)
 - [▶️ Ejecución de los desafíos](#️-ejecución-de-los-desafíos)
-- [🚀 Índice de Desafíos Diario 🔥](#🚀-índice-de-desafíos-diarios)
+- [🚀 Índice de Desafíos Diario 🔥](#-índice-de-desafíos-diarios)
 - [🔴 TODO](#todo)
 
 
