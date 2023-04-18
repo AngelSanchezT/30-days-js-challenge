@@ -1,3 +1,4 @@
+# ✅ Ejercicio 02 - Day 02 - Calculate the tip.
 En este desafío tendrás que calcular la propina que deben dejar los clientes de un restaurante en función de su consumo.
 
 Recibirás 2 parámetros:
