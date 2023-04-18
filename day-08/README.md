@@ -1,4 +1,4 @@
-# Ejercicio 08-01 - Crea una calculadora con closures
+# ✅ Ejercicio 08-01 - Crea una calculadora con closures
 
 En este desafío tendrás que crear una calculadora mediante el uso de closures.
 
@@ -42,7 +42,7 @@ calculator.clear()
 Output: 0
 ```
 
-# Ejercicio 08-02 - Crea tu propio método map
+# ✅ Ejercicio 08-02 - Crea tu propio método map
 
 En este desafío debes desarrollar una implementación personalizada del método `map` utilizando funciones de orden superior.
 
