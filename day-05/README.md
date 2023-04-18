@@ -1,4 +1,4 @@
-# Ejercicio 05 - Encuentra el palíndromo más grande.
+# ✅ Ejercicio 05 - Encuentra el palíndromo más grande.
 
 En este desafío, debes crear una función que encuentre el palíndromo más largo en una lista de palabras.
 
