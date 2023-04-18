@@ -2,12 +2,11 @@
 ¡Bienvenido al Reto de 30 días de JavaScript! Eleva tus habilidades de codificación y libera tu creatividad con estos desafíos diarios de programación. Desde construir aplicaciones simples hasta resolver algoritmos complejos. Este repositorio contiene los desafíos y soluciones para cada día del reto, así como las instrucciones para descargar y ejecutar el proyecto en tu propio entorno.
 
 ## Tabla de Contenido <!-- omit in toc -->
-- [30-days-js-challenge](#30-days-js-challenge)
-  - [Tabla de Contenido](#tabla-de-contenido)
-  - [📥 Descarga del proyecto](#-descarga-del-proyecto)
-  - [📚 Librerías utilizadas](#-librerías-utilizadas)
-  - [⚙️ Configuración](#️-configuración)
-  - [▶️ Ejecución de los desafíos](#️-ejecución-de-los-desafíos)
+
+- [📥 Descarga del proyecto](#-descarga-del-proyecto)
+- [📚 Librerías utilizadas](#-librerías-utilizadas)
+- [⚙️ Configuración](#️-configuración)
+- [▶️ Ejecución de los desafíos](#️-ejecución-de-los-desafíos)
 - [TODO](#todo)
 
 
