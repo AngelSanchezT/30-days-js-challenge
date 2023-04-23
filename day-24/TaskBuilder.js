@@ -1,4 +1,4 @@
-import { Task } from "./exercise";
+import { Task } from "./exercise-24";
 
 export class TaskBuilder {
   constructor() {
