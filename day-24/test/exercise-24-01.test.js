@@ -90,13 +90,13 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
     taskBuilder.setPriority("alta");
     const task = taskBuilder.build();
 
-    expect(task).toBeInstanceOf(Task);
-    expect(task.id).toBe("1");
+    expect(task).to.be.instanceOf(Task);
+    expect(task.id).to.eql("1");
     expect(task.description).to.eql("Comprar leche");
-    expect(task.completed).toBe(false);
-    expect(task.users).toEqual([user1, user2]);
-    expect(task.deadline).toBe("2023-03-31");
-    expect(task.priority).toBe("alta");
+    expect(task.completed).to.eql(false);
+    expect(task.users).to.eql([user1, user2]);
+    expect(task.deadline).to.eql("2023-03-31");
+    expect(task.priority).to.eql("alta");
   });
 
   const mockTask = new Task(1, "Mock task");
@@ -104,7 +104,7 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
     const taskManager1 = TaskManager.getInstance();
     const taskManager2 = TaskManager.getInstance();
 
-    expect(taskManager1).toBe(taskManager2);
+    expect(taskManager1).to.eql(taskManager2);
   });
 
   it("should add a task correctly", () => {
