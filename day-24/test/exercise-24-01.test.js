@@ -118,12 +118,12 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
     const taskManager = TaskManager.getInstance();
     taskManager.addTask(mockTask);
     const task = taskManager.getTaskById(mockTask.id);
-    expect(task).toEqual(mockTask);
+    expect(task).to.eql(mockTask);
   });
 
   it("should return null when task does not exist", () => {
     const taskManager = TaskManager.getInstance();
     const task = taskManager.getTaskById(999);
-    expect(task).toBe(null);
+    expect(task).to.eql(null);
   });
 });
