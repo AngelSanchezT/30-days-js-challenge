@@ -30,7 +30,7 @@ describe("Playlist", () => {
   it("throws an error if the playlist is empty", () => {
     expect(() => {
       playlist.playSong();
-    }).toThrow();
+    }).to.throw();
   });
 
   it("should plays and removes the top song from the playlist", () => {
