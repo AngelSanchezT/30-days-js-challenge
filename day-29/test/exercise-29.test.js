@@ -44,16 +44,16 @@ describe("Tests", () => {
     );
 
     const removedMail = queue.dequeue();
-    expect(removedMail.from).toBe("user1@example.com");
-    expect(removedMail.to).toBe("support@example.com");
-    expect(removedMail.body).toBe("Body 1");
-    expect(removedMail.subject).toBe("Subject 1");
+    expect(removedMail.from).to.eql("user1@example.com");
+    expect(removedMail.to).to.eql("support@example.com");
+    expect(removedMail.body).to.eql("Body 1");
+    expect(removedMail.subject).to.eql("Subject 1");
 
-    expect(queue.size()).toBe(2);
-    expect(queue.peek().from).toBe("user2@example.com");
-    expect(queue.peek().to).toBe("support@example.com");
-    expect(queue.peek().body).toBe("Body 2");
-    expect(queue.peek().subject).toBe("Subject 2");
+    expect(queue.size()).to.eql(2);
+    expect(queue.peek().from).to.eql("user2@example.com");
+    expect(queue.peek().to).to.eql("support@example.com");
+    expect(queue.peek().body).to.eql("Body 2");
+    expect(queue.peek().subject).to.eql("Subject 2");
   });
 
   it("should throw an error when dequeue from an empty queue", () => {
