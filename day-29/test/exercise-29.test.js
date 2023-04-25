@@ -109,6 +109,6 @@ describe("Tests", () => {
       "Subject 3"
     );
 
-    expect(queue.size()).toBe(3);
+    expect(queue.size()).to.eql(3);
   });
 });
