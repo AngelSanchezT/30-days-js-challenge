@@ -83,10 +83,10 @@ describe("Tests", () => {
     );
 
     const peekedMail = queue.peek();
-    expect(peekedMail.from).toBe("user1@example.com");
-    expect(peekedMail.to).toBe("support@example.com");
-    expect(peekedMail.body).toBe("Body 1");
-    expect(peekedMail.subject).toBe("Subject 1");
+    expect(peekedMail.from).to.eql("user1@example.com");
+    expect(peekedMail.to).to.eql("support@example.com");
+    expect(peekedMail.body).to.eql("Body 1");
+    expect(peekedMail.subject).to.eql("Subject 1");
   });
 
   it("should return the size of the queue", () => {
