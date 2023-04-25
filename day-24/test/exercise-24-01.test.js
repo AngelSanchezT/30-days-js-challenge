@@ -111,7 +111,7 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
     const taskManager = TaskManager.getInstance();
     taskManager.addTask(mockTask);
     const tasks = taskManager.getTasks();
-    expect(tasks).toContain(mockTask);
+    expect(tasks).to.include(mockTask);
   });
 
   it("should get a task by id correctly", () => {
