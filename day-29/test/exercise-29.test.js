@@ -59,7 +59,7 @@ describe("Tests", () => {
   it("should throw an error when dequeue from an empty queue", () => {
     expect(() => {
       queue.dequeue();
-    }).toThrow();
+    }).to.throw();
   });
 
   it("should peek the first email", () => {
