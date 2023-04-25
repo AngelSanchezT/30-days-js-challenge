@@ -22,9 +22,9 @@ describe("Playlist", () => {
     playlist.addSong("Bohemian Rhapsody");
     playlist.addSong("Stairway to Heaven");
 
-    expect(playlist.top.value).toBe("Stairway to Heaven");
-    expect(playlist.bottom.value).toBe("Bohemian Rhapsody");
-    expect(playlist.length).toBe(2);
+    expect(playlist.top.value).to.eql("Stairway to Heaven");
+    expect(playlist.bottom.value).to.eql("Bohemian Rhapsody");
+    expect(playlist.length).to.eql(2);
   });
 
   it("throws an error if the playlist is empty", () => {
