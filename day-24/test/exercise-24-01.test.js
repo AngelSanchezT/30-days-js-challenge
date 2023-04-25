@@ -1,3 +1,6 @@
+import chai, { expect } from "chai";
+import sinon from "sinon";
+
 import { Authorization } from "../Authorization";
 import { TaskBuilder } from "../TaskBuilder";
 import { TaskDecorator } from "../TaskDecorator";
@@ -34,7 +37,7 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
   it("Should throw an error if user is not an instance of User", () => {
     const user1 = { name: "Juan", role: "admin" };
     const task = new Task("3", "Hacer ejercicio");
-    expect(() => task.assignUser(user1)).toThrowError();
+    expect(() => task.assignUser(user1)).to.throw();
   });
 
   it("checkAuthorization() should not throw an error if the user is authorized", () => {
@@ -44,7 +47,7 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
     const task = new Task("4", "Comprar pan");
     task.assignUser(user1);
     task.assignUser(user2);
-    expect(() => authorization.checkAuthorization(user1, task)).not.toThrow();
+    expect(() => authorization.checkAuthorization(user1, task)).not.to.throw();
   });
 
   it("checkAuthorization() should throw an error if the user is not authorized", () => {
@@ -53,7 +56,7 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
     const user2 = new User("Maria");
     const task = new Task("4", "Comprar pan");
     task.assignUser(user1);
-    expect(() => authorization.checkAuthorization(user2, task)).toThrow();
+    expect(() => authorization.checkAuthorization(user2, task)).to.throw();
   });
 
   it("TaskDecorator should have all the properties of the original Task", () => {
@@ -63,16 +66,16 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
       priority: "alta",
     });
     expect(taskDecorator.task.id).toBe("5");
-    expect(taskDecorator.task.description).toBe("Pasear al perro");
-    expect(taskDecorator.task.completed).toBe(false);
-    expect(taskDecorator.task.users).toEqual([]);
-    expect(typeof taskDecorator.completeTask).toBe("function");
+    expect(taskDecorator.task.description).to.eql("Pasear al perro");
+    expect(taskDecorator.task.completed).to.eql(false);
+    expect(taskDecorator.task.users).to.eql([]);
+    expect(typeof taskDecorator.completeTask).to.eql("function");
   });
 
   it("TaskDecorator should have the additional properties", () => {
     const task = new Task("6", "Hacer la cena");
     const taskDecorator = new TaskDecorator(task, { priority: "media" });
-    expect(taskDecorator.priority).toBe("media");
+    expect(taskDecorator.priority).to.eql("media");
   });
 
   it("TaskBuilder should build a task with all the properties", () => {
@@ -89,7 +92,7 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
 
     expect(task).toBeInstanceOf(Task);
     expect(task.id).toBe("1");
-    expect(task.description).toBe("Comprar leche");
+    expect(task.description).to.eql("Comprar leche");
     expect(task.completed).toBe(false);
     expect(task.users).toEqual([user1, user2]);
     expect(task.deadline).toBe("2023-03-31");
