@@ -65,11 +65,11 @@ describe("🌐 Day 24 - Created an task manager with design patters", () => {
       deadline: "2023-03-31",
       priority: "alta",
     });
-    expect(taskDecorator.task.id).toBe("5");
-    expect(taskDecorator.task.description).to.eql("Pasear al perro");
-    expect(taskDecorator.task.completed).to.eql(false);
-    expect(taskDecorator.task.users).to.eql([]);
-    expect(typeof taskDecorator.completeTask).to.eql("function");
+    expect(taskDecorator?.task?.id).to.eql("5");
+    expect(taskDecorator?.task?.description).to.eql("Pasear al perro");
+    expect(taskDecorator?.task?.completed).to.eql(false);
+    expect(taskDecorator?.task?.users).to.eql([]);
+    expect(typeof taskDecorator?.completeTask).to.eql("function");
   });
 
   it("TaskDecorator should have the additional properties", () => {
