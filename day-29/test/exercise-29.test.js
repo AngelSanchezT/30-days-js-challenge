@@ -1,4 +1,6 @@
-import { Queue } from "./exercise";
+import { Queue } from "../exercise-29";
+import { expect } from 'chai';
+import sinon from 'sinon';
 
 describe("Tests", () => {
   let queue;
@@ -14,11 +16,11 @@ describe("Tests", () => {
       "Body 1",
       "Subject 1"
     );
-    expect(queue.size()).toBe(1);
-    expect(queue.peek().from).toBe("user1@example.com");
-    expect(queue.peek().to).toBe("support@example.com");
-    expect(queue.peek().body).toBe("Body 1");
-    expect(queue.peek().subject).toBe("Subject 1");
+    expect(queue.size()).to.eql(1);
+    expect(queue.peek().from).to.eql("user1@example.com");
+    expect(queue.peek().to).to.eql("support@example.com");
+    expect(queue.peek().body).to.eql("Body 1");
+    expect(queue.peek().subject).to.eql("Subject 1");
   });
 
   it("should dequeue emails", () => {
