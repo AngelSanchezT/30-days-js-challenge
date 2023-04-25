@@ -1,4 +1,7 @@
-import { Playlist } from "./exercise";
+import { Playlist } from "../exercise-28";
+import { expect } from 'chai';
+import sinon from 'sinon';
+
 
 describe("Playlist", () => {
   let playlist;
@@ -10,9 +13,9 @@ describe("Playlist", () => {
   it("adds a song to an empty playlist", () => {
     playlist.addSong("Bohemian Rhapsody");
 
-    expect(playlist.top.value).toBe("Bohemian Rhapsody");
-    expect(playlist.bottom.value).toBe("Bohemian Rhapsody");
-    expect(playlist.length).toBe(1);
+    expect(playlist.top.value).to.eql("Bohemian Rhapsody");
+    expect(playlist.bottom.value).to.eql("Bohemian Rhapsody");
+    expect(playlist.length).to.eql(1);
   });
 
   it("adds a song to a non-empty playlist", () => {
