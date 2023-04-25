@@ -38,22 +38,22 @@ describe("Playlist", () => {
     playlist.addSong("Stairway to Heaven");
 
     const song1 = playlist.playSong();
-    expect(song1).toBe("Stairway to Heaven");
-    expect(playlist.top.value).toBe("Bohemian Rhapsody");
-    expect(playlist.bottom.value).toBe("Bohemian Rhapsody");
-    expect(playlist.length).toBe(1);
+    expect(song1).to.eql("Stairway to Heaven");
+    expect(playlist.top.value).to.eql("Bohemian Rhapsody");
+    expect(playlist.bottom.value).to.eql("Bohemian Rhapsody");
+    expect(playlist.length).to.eql(1);
 
     const song2 = playlist.playSong();
-    expect(song2).toBe("Bohemian Rhapsody");
-    expect(playlist.top).toBeNull();
-    expect(playlist.bottom).toBeNull();
-    expect(playlist.length).toBe(0);
+    expect(song2).to.eql("Bohemian Rhapsody");
+    expect(playlist.top).to.be.null;
+    expect(playlist.bottom).to.be.null;
+    expect(playlist.length).to.eql(0);
   });
 
   it("should returns an empty array for an empty playlist", () => {
     const songs = playlist.getPlaylist();
 
-    expect(songs).toEqual([]);
+    expect(songs).to.eql([]);
   });
 
   it("should return an array of songs in reverse order of addition", () => {
@@ -63,7 +63,7 @@ describe("Playlist", () => {
 
     const songs = playlist.getPlaylist();
 
-    expect(songs).toEqual([
+    expect(songs).to.eql([
       "Hotel California",
       "Stairway to Heaven",
       "Bohemian Rhapsody",
@@ -77,7 +77,7 @@ describe("Playlist", () => {
 
     const songs = playlist.getPlaylist();
 
-    expect(songs).toEqual([
+    expect(songs).to.equal([
       "Hotel California",
       "Stairway to Heaven",
       "Bohemian Rhapsody",
