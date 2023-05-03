@@ -19,7 +19,7 @@ Los métodos que deberás implementar son los siguientes
 
 Ejemplo 1:
 
-```txt
+```jsx
 
 Input:
 const linkedList = new LinkedListRecharged();
@@ -37,7 +37,7 @@ Output:
 
 Ejemplo 2:
 
-```txt
+```jsx
 Input:
 const linkedList = new LinkedListRecharged();
 
@@ -54,7 +54,7 @@ Output:
 
 Ejemplo 3:
 
-```txt
+```jsx
 
 Input:
 const linkedList = new LinkedListRecharged();
