@@ -1,7 +1,5 @@
 import { Playlist } from "../exercise-28";
 import { expect } from 'chai';
-import sinon from 'sinon';
-
 
 describe("Playlist", () => {
   let playlist;
@@ -77,7 +75,7 @@ describe("Playlist", () => {
 
     const songs = playlist.getPlaylist();
 
-    expect(songs).to.equal([
+    expect(songs).to.eql([
       "Hotel California",
       "Stairway to Heaven",
       "Bohemian Rhapsody",
