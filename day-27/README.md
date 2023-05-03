@@ -1,4 +1,4 @@
-# 🔴 Ejercicio 27.01 - Agrega métodos a la singly linked list
+# ✅ Ejercicio 27.01 - Agrega métodos a la singly linked list
 30DaysJs-37
 
 En este ejercicio práctico, crearás métodos adicionales para una singly linked list.
