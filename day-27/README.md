@@ -1,5 +1,4 @@
 # ✅ Ejercicio 27.01 - Agrega métodos a la singly linked list
-30DaysJs-37
 
 En este ejercicio práctico, crearás métodos adicionales para una singly linked list.
 
@@ -72,7 +71,7 @@ Output:
 ```
 
 # 🔴 Ejercicio 27.02 - Implementación de una singly linked list
-30DaysJs-38
+
 En este desafío, tu objetivo es implementar una singly linked list para almacenar información sobre pacientes de un hospital. Cada nodo de la lista representará a un paciente y tendrá los siguientes campos:
 
 - Nombre del paciente (string)
@@ -97,7 +96,7 @@ Aquí tienes una guía paso a paso de cómo implementar la singly linked list:
 
 Ejemplo 1:
 
-```txt
+```jsx
 Input:
 const list = new PatientList(3)
 list.addPatient("Paciente 1", 20)
@@ -114,7 +113,7 @@ Output:
 
 Ejemplo 2:
 
-```txt
+```jsx
 
 Input:
 const list = new PatientList(3)
@@ -134,7 +133,7 @@ Output:
 
 Ejemplo 3:
 
-```txt
+```jsx
 Input:
 const list = new PatientList(3)
 list.addPatient("Paciente 1", 20)
