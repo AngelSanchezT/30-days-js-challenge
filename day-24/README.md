@@ -1,4 +1,4 @@
-# 🔴 Ejercicio 24 - Crea un task manager con patrones de diseño
+# ✅ Ejercicio 24 - Crea un task manager con patrones de diseño
 
 En este ejercicio, tu objetivo es implementar un sistema de manejo de tareas utilizando patrones de diseño.
 
