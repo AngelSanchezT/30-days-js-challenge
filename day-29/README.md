@@ -1,4 +1,4 @@
-# ✅ Ejercicio 29 - Crea una cola de emails
+# ✅ Ejercicio 29 - Crea una cola de emails.
 
 En este desafío, tendrás que implementar la lógica para procesar correos electrónicos en una empresa utilizando una queue, priorizando siempre los emails más antiguos.
 
