@@ -13,7 +13,7 @@ Tendrás una clase `Mail` ya construida para usarla dentro del desarrollo de tu 
 
 Ejemplo 1
 
-```txt
+```jsx
 Input:
 const emailQueue = new Queue();
 
