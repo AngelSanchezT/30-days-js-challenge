@@ -1,19 +1,28 @@
-import { User } from "./User";
+import { User } from "./User"
 
-export class Task {
-  constructor(id, description) {
-    // Tu código aquí 👈
+export class Task{
+  constructor(id, description){
+    this.id = id,
+    this.description = description
+    this.completed = false
+    this.users = []
   }
 
-  assignUser(user) {
-    // Tu código aquí 👈
+  assignUser(user){
+    if(!(user instanceof User)){
+      throw new Error("No hereda de la clase user")
+    }
+    this.users.push(user)
   }
 
   completeTask() {
-    // Tu código aquí 👈
+    this.completed = true;
+    this.notifyUsers()
   }
 
   notifyUsers() {
-    // Tu código aquí 👈
+    this.users.forEach((user) => {
+      user.notify(this);
+    });
   }
 }
