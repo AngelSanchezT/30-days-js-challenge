@@ -87,7 +87,7 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [✅ Día 22.02 - Mejora el código usando builder pattern](./day-22/)
 - [✅ Día 23.01 - Proxy en servicio de mensajería](./day-23/)
 - [✅ Día 23.02 - Implementación de Observador en Newsletter](./day-23/)
-- [🔴 Día 24](./day-24/)
+- [✅ Día 24 - Crea un task manager con patrones de diseño](./day-24/)
 - [✅ Día 25.01 - Crea tu propia implementación de un array](./day-25/)
 - [✅ Día 25.02 - Implementación de una HashTable para Contactos](./day-25/)
 - [✅ Día 26.01 - Remueve duplicados de una lista](./day-26/)
@@ -95,8 +95,8 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [✅ Día 27.01 - Agrega métodos a la singly linked list](./day-27/)
 - [✅| Día 27.02 - Agrega métodos a la singly linked list](./day-27/)
 - [✅ Día 28 - Create a stack for a playlist](./day-28/)
-- [🔴 Día 29](./day-29/)
-- [🔴 Día 30](./day-30/)
+- [✅ Día 29 - Crea una cola de emails](./day-29/)
+- [✅ Día 30 - ¡Lo Lograste!](./day-30/)
 
 # TODO
 - [X] Pending to describe how the tests can be executed.
