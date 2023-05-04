@@ -92,8 +92,9 @@ Esto ejecutará las pruebas para el desafío del primer día utilizando Mocha y 
 - [✅ Día 25.02 - Implementación de una HashTable para Contactos](./day-25/)
 - [✅ Día 26.01 - Remueve duplicados de una lista](./day-26/)
 - [✅ Día 26.02 - Crea un organizador de tareas](./day-26/)
-- [🔴 Día 27.01 - Agrega métodos a la singly linked list](./day-27/)
-- [🔴 Día 28](./day-28/)
+- [✅ Día 27.01 - Agrega métodos a la singly linked list](./day-27/)
+- [✅| Día 27.02 - Agrega métodos a la singly linked list](./day-27/)
+- [✅ Día 28 - Create a stack for a playlist](./day-28/)
 - [🔴 Día 29](./day-29/)
 - [🔴 Día 30](./day-30/)
 

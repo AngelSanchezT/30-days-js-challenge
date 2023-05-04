@@ -1,5 +1,4 @@
-# 🔴 Ejercicio 28 - Create a stack for a playlist
-30DaysJs-39
+# ✅ Ejercicio 28 - Create a stack for a playlist
 
 En este ejercicio, el objetivo es implementar una playlist de un servicio de música utilizando un stack.
 
