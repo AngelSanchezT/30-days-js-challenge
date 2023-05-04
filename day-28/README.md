@@ -1,4 +1,4 @@
-# ✅ Ejercicio 28 - Create a stack for a playlist
+# ✅ Ejercicio 28 - Create a stack for a playlist.
 
 En este ejercicio, el objetivo es implementar una playlist de un servicio de música utilizando un stack.
 
@@ -12,7 +12,7 @@ Deberás implementar la lógica de la clase `Playlist` la cual deberá tener las
 
 Ejemplo 1:
 
-```txt
+```jsx
 Input:
 const playlist = new Playlist();
 
@@ -32,7 +32,7 @@ Output: Error: No hay canciones en la lista
 
 Ejemplo 2:
 
-```txt
+```jsx
 
 Input:
 const playlist = new Playlist();
